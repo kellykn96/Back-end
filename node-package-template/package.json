@@ -1,0 +1,21 @@
+{
+  "name": "package-template",
+  "version": "1.0.0",
+  "description": "Creating first package.jason",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" ",
+    "search-country-by-name":"clear && node ./src/searchCountryByName.js"
+  },
+  "keywords": [],
+  "author": "kelly",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "kellykn96"
+  },
+  "dependencies": {
+    "chalk": "^5.0.0"
+  }
+}
